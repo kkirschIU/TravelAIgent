@@ -1,4 +1,4 @@
-FROM llama3.1:8b-instruct-q4_K_M
+FROM llama3.1:8b
 ADAPTER ./travelaigent_adapter.gguf
 
 PARAMETER temperature 0.5
