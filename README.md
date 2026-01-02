@@ -1,7 +1,7 @@
 # TravelAIgent
 Study Project for Course “Project: Computer Science DLMCSPCSP01”
 
-TravelAIgent is a two-component system based on the open-weight base model **Llama 3.1 8B Instruct** by Meta  
+TravelAIgent is a two-component system based on the open-weight base model **Llama 3.1 8B** by Meta  
 (originally published on Hugging Face: https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct)  
 and a domain-specific **fine-tuned adapter** for Iceland travel planning.
 
@@ -33,8 +33,7 @@ Follow these steps to run the ready-to-use TravelAIgent model locally.
 1. Download Ollama for your operating system from:  
    https://ollama.com/download
 2. Install Ollama using the provided installer.
-3. Open a terminal (PowerShell, cmd, macOS Terminal, or Linux shell) and check the installation by using:
-   ollama version
+3. Open a terminal (PowerShell, cmd, macOS Terminal, or Linux shell)
 
 ### Step 2: Download the LLaMA 3.1:8B Base Model
 4. In your terminal enter
