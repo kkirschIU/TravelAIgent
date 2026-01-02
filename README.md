@@ -53,10 +53,12 @@ Follow these steps to run the ready-to-use TravelAIgent model locally.
 
 ### Step 4: Create Travel AIgent
 8. To create Travel AIgent first start the Ollama Service
-   ollama serv
-9. Open a new terminal and enter the command
+   ollama serve
+      Note: if you have installed the windows ollama app and the process is running in your task manager, starting the service is not necessary. Go on with Point 10.
+10. In the terminal, change directory to the TravelAIgent directory you just created and where the GitHub Repository data lies in.
+10. Enter the command
    ollama create travelaigent -f Modelfile
-10. Once the model has been created succesfully you can start Travel AIgent with
+11. Once the model has been created succesfully you can start Travel AIgent with
     ollama run travelaigent
 
 Enjoy exploring Travel AIgent and plan your first journey!
